@@ -1,10 +1,68 @@
-# [Flappy Bird](https://youtu.be/Xw2MEG-FBsE)
-- Coding Tutorial: [https://youtu.be/jj5ADM2uywg](https://youtu.be/Xw2MEG-FBsE)
+Each image is defined in the java classes and we are using swing as well as awt
 
-In this tutorial, you will learn to create the flappy bird game with the built-in java awt/swing graphics library.
+# Flappy Bird Game
 
-Throughout the tutorial, you will learn how to create the game loop, create a jframe and jpanel, draw images on the jpanel, add click handlers to make the flappy bird jump, randomly generate pipes and move them across the screen, detect collisions between the flappy bird and each pipe, and add a running score. 
+This project is a Java-based implementation of the popular Flappy Bird game. It was developed using Java's Swing and AWT libraries for the graphical user interface and game mechanics.
 
-[How to setup Java with Visual Studio Code](https://youtu.be/BB0gZFpukJU)
+## Table of Contents
 
-![flappybird-ss](https://github.com/ImKennyYip/flappy-bird-java/assets/78777681/8b445d66-ab36-4d40-a6ac-ad501d41ed32)
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Controls](#game-controls)
+- [Contributing](#contributing)
+
+
+## Overview
+
+This Flappy Bird game is a simple, fun, and addictive arcade-style game where the player controls a bird attempting to fly between columns of green pipes without hitting them. The bird automatically descends due to gravity and the player must flap its wings to keep it airborne.
+
+## Features
+
+- Smooth graphics and animations using Swing and AWT.
+- Realistic gravity and collision detection.
+- Score tracking.
+- Restart functionality.
+- Simple keyboard controls.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [..](https://github.com/Adi-sabastian/gameflappybirds)
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd flappy-bird-game
+   ```
+
+3. **Compile the Java files:**
+   ```bash
+   javac -d bin src/*.java
+   ```
+
+4. **Run the game:**
+   ```bash
+   java -cp bin Main
+   ```
+
+## Usage
+
+- Run the game using the instructions provided in the Installation section.
+- The game window will open, and you can start playing immediately.
+
+## Game Controls
+
+- **Spacebar**: Flap the bird's wings to keep it flying.
+- **R**: Restart the game after the bird crashes.
+- **Esc**: Exit the game.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bug fixes, features, or enhancements.
+
+
+
+
